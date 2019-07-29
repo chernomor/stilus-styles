@@ -33,10 +33,11 @@
 	{ height: 18px !important; }
 
 	.c-message__body,
-	.p-channel_sidebar__name
+	.p-channel_sidebar__name,
+	.c-message_kit__text
 	{
 		font-size: 90% !important;
+		line-height: 18px !important;
 	}
-
 
 }
