@@ -1,0 +1,42 @@
+@-moz-document domain("slack.com") {
+	/* v20190729.0 */
+	#msg_input .ql-placeholder .emoji,
+	#msg_input .ql-placeholder .emoji-sizer,
+	.c-member__flex-container--large .c-member__other-names .c-member__current-status .emoji,
+	.message_current_status .c-emoji,
+	.message_current_status .c-emoji-outer,
+		.current_status .c-emoji,
+		.current_status .c-emoji-sizer,
+		.c-custom_status .c-emoji,
+		.c-custom_status .c-emoji-outer,
+		.c-custom_status .c-emoji-sizer,
+		.channel_header_member_current_status .c-emoji-outer,
+		.channel_header_member_current_status .c-emoji-sizer
+		{
+				display: none;
+		}
+
+
+		/* compact channel list */
+		.p-channel_sidebar__static_list div .p-channel_sidebar__jumper
+		{
+				padding-top: 0px !important;
+				padding-bottom: 0px !important;
+				margin-top: 0px !important;
+				margin-bottom: 0px !important;
+				height: 18px !important;
+				line-height: normal;
+		}
+
+	.p-channel_sidebar__static_list div,
+	.p-channel_sidebar__static_list div .p-channel_sidebar__channel
+	{ height: 18px !important; }
+
+	.c-message__body,
+	.p-channel_sidebar__name
+	{
+		font-size: 90% !important;
+	}
+
+
+}
